@@ -1,0 +1,44 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fbf5dc), color-stop(1, white));
+  background-image: -o-linear-gradient(bottom, #fbf5dc 0%, white 100%);
+  background-image: -moz-linear-gradient(bottom, #fbf5dc 0%, white 100%);
+  background-image: -webkit-linear-gradient(bottom, #fbf5dc 0%, white 100%);
+  background-image: -ms-linear-gradient(bottom, #fbf5dc 0%, white 100%);
+  background-image: linear-gradient(to bottom, #fbf5dc 0%, white 100%);
+  font-family: "Amaranth"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Knewave"; }
+
+header {
+  background-color: black; }
+
+footer {
+  height: 120px;
+  background-color: #A5A5A5;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
+
+nav .main-navigation {
+  margin: 0;
+  float: right; }
+  nav .main-navigation li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px; }
+    nav .main-navigation li a {
+      color: white;
+      font-weight: bold; }
+
+/*# sourceMappingURL=screen.css.map */

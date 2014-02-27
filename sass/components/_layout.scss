@@ -1,0 +1,35 @@
+header {
+	background-color:$black;
+}
+
+
+section {
+	
+	&[role="main"] {
+	 // min-height: 100%;
+	 // margin-bottom: -150px;
+
+	 // &:after {
+	 // 	content: "";
+  // 		display: block;
+		// height:150px;
+	 // }
+
+	 
+	 }
+}
+
+
+footer {
+
+	height:120px;
+	background-color:#A5A5A5;
+	color:white;
+
+	// Styles for Sticky Header
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+
+}

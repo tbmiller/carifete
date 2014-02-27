@@ -1,0 +1,6 @@
+Options -Indexes
+
+<FilesMatch "\.(md)$">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>
